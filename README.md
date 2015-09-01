@@ -34,5 +34,5 @@ HOW TO RUN
     -Right click the "ThisOutlookSession" in the window explorer on the right and click import
     -select the modified .cls file containing the changes above
     -This creates a new module, copy the contents of the new module into the "ThisOutlookSession" sheet.
-    -restart microsoft outlook
+    -Save and restart microsoft outlook
 4) To Uninstall: navigate to the Visual Basic Editor, delete the contents of the "ThisOutlookSession" sheet, click save and restart Outlook
