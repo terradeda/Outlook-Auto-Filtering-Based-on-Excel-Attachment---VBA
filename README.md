@@ -28,6 +28,7 @@ HOW TO RUN
      -Reverse Flow Limit  <--- This value indicates the lower limit to the number of alarms required before it is flagged
      -SubFolder           <--- The name of the outlook subfolder where the incoming emails will be moved prior to filtering
      -SenderFilter        <--- The email address which will be filtered and moved
+     -SummaryAddress      <--- The email address which will recieve the summary and filtered spreadsheet
 3) Install the Script in your outlook application
 
     -Open Outlook and navigate to tools->macros->Visual Basic Editor (You will most likely be confronted with a warning message, click run macros)
