@@ -21,12 +21,15 @@ NOTE: This is a locally run script and does not run on the mail server. This mea
 HOW TO RUN
 
 1) Write click on the script and open in either a IDE or simply in notepad.
+
 2) Alter the USER INPUT Section near the top of the script to match the specifications you requires:
+
      -file Location       <--- File location where the time-stamped attachements will be saved
      -Reverse Flow Limit  <--- This value indicates the lower limit to the number of alarms required before it is flagged
      -SubFolder           <--- The name of the outlook subfolder where the incoming emails will be moved prior to filtering
      -SenderFilter        <--- The email address which will be filtered and moved
 3) Install the Script in your outlook application
+
     -Open Outlook and navigate to tools->macros->Visual Basic Editor
     -copy the .cls file into the "ThisOutlookSession" sheet.
     -Press run (F5)
