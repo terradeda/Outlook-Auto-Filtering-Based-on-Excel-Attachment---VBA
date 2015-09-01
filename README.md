@@ -31,5 +31,7 @@ HOW TO RUN
 3) Install the Script in your outlook application
 
     -Open Outlook and navigate to tools->macros->Visual Basic Editor
-    -copy the .cls file into the "ThisOutlookSession" sheet.
+          (You will most likely be confronted with a warning message, click run macros)
+    -copy the contents of the .cls file into the "ThisOutlookSession" sheet.
     -Press run (F5)
+4) To Uninstall: navigate to the Visual Basic Editor, delete the contents of the "ThisOutlookSession" sheet, click save and restart Outlook
