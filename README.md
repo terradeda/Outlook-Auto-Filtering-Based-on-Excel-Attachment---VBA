@@ -5,7 +5,7 @@ This is a simple script that was written to Auto-Filter the daily status report 
 
 <b>BACKGOUND</b>
 
-The server has been set up to generate a daily status report used to indicate if there are any issues with our AMI network. Specifically, there is a report which specifies the number of reverse flow alarms our system recieved over a specific period of times. However, we are only interested in endpoints that have recorded a high number of these alarms so the incoming emails need to be filtered based on the contents of their attached .XLS spreadsheet. Once the endpoints with a high number of alarms are identified, a new email is sent to a person/address containing a scripted message and indicating a list of only these endpoints.
+The server has been set up to generate a daily status report used to indicate if there are any issues with our AMI network. Specifically, there is a report which specifies the number of reverse flow alarms our system recieved over a specific period of times. However, we are only interested in endpoints that have recorded a high number of these alarms so the incoming emails need to be filtered based on the contents of their attached .XLS spreadsheet. Once the endpoints experiencing a high number of alarms are identified, a new email is sent to a person/address containing a scripted message and indicating a list of only these endpoints.
 
 <b>DETAILS</b>
 
