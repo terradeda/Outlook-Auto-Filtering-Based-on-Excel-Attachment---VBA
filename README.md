@@ -16,9 +16,11 @@ The servers in an AMI System have the ability to generate daily status reports u
 
 The filtering process used in this script is quite simple and involves making a few generalizations, one being that all emails sent from a specific person/address contain the report we are interested in. A more complex filtering scheme can easily be implemented if so needed. This script begins by looking at all incoming emails on a specific email account and moves any emails recieved from a specific person/address to a seperate folder.
 
-Once in this folder the script looks for a XLS attachement. Another assumption is that any .XLS spreadsheet attached to these emails is in the proper format, again this could be improved. If no attachement is found, or the attachment that was attached is not a .XLS spreadsheet, then the script generates a pop-up message indicating that a "Reverse Flow Report" was recieved with not attachment found. If an attachement is found than the script begins its filtering process.
+Once in this folder the script looks for a XLS attachement. Another assumption is that any .XLS spreadsheet attached to these emails is in the proper format, again this could be improved. If no attachement is found, or the attachment that was attached is not a .XLS spreadsheet, then the script generates a pop-up message indicating that a "Reverse Flow Report" was recieved with not attachment found. An example of this pop-up box can be seen below .
 
-The filtering process begins by opening the attached spreadsheet and create a new sheet to contain only the filtered endpoints. It than checks each record in the attached spreadsheet looking for endpoints with greater than 'x' alarms (x = user input). Any endpoint matching this description is then copied to this new spreadsheet, a sample of which can be seen below.
+<img src="https://cloud.githubusercontent.com/assets/11066939/9763405/51092a5c-56d7-11e5-891a-f1544406370b.JPG" alt="Sample Pop-Up Box" width="266 height="156>
+
+If an attachement is found than the script begins its filtering process.The filtering process begins by opening the attached spreadsheet and create a new sheet to contain only the filtered endpoints. It than checks each record in the attached spreadsheet looking for endpoints with greater than 'x' alarms (x = user input). Any endpoint matching this description is then copied to this new spreadsheet, a sample of which can be seen below.
 
 <img src="https://cloud.githubusercontent.com/assets/11066939/9763511/f089ebf2-56d7-11e5-921e-f9234db2105e.JPG" alt="Sample Reverse Flow Report" width="526" height="467">
 
