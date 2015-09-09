@@ -18,12 +18,11 @@ The filtering process used in this script is quite simple and involves making a 
 
 Once in this folder the script looks for a XLS attachement. Another assumption is that any .XLS spreadsheet attached to these emails is in the proper format, again this could be improved. If no attachement is found, or the attachment that was attached is not a .XLS spreadsheet, then the script generates a pop-up message indicating that a "Reverse Flow Report" was recieved with not attachment found. If an attachement is found than the script begins its filtering process.
 
-The filtering process begins by opening the attached spreadsheet and create a new sheet to contain only the filtered endpoints. It than checks each record in the attached spreadsheet looking for endpoints with greater than 'x' alarms (x = user input). Any endpoint matching this description is then copied to this new spreadsheet. 
+The filtering process begins by opening the attached spreadsheet and create a new sheet to contain only the filtered endpoints. It than checks each record in the attached spreadsheet looking for endpoints with greater than 'x' alarms (x = user input). Any endpoint matching this description is then copied to this new spreadsheet, a sample of which can be seen below.
 
 <img src="https://cloud.githubusercontent.com/assets/11066939/9763511/f089ebf2-56d7-11e5-921e-f9234db2105e.JPG" alt="Sample Reverse Flow Report" width="526" height="467">
-EX. Filtered Reverse Flow Spreadsheet
 
-The new spreadsheet is saved locally in a predifined folder and time-stamped. The script then creates a new email containing a scripted response and has this new spread sheet attached. The email is sent to another predefined person/email address for them to process or take action against. An example of an auto-generated message created from this script can be seen below
+The new spreadsheet is saved locally in a predifined folder and time-stamped. The script then creates a new email containing a scripted response and has this new spreadsheet attached. The email is sent to another predefined person/email address for them to process or take action against. An example of an auto-generated message created from this script can be seen below.
 
 <img src="https://cloud.githubusercontent.com/assets/11066939/9764766/cb6b889c-56de-11e5-977a-3f56dce97016.JPG" alt="System Diagram" width="567" height="368">
 
